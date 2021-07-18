@@ -23,6 +23,28 @@ namespace L_Business
             return resultado;
         }
 
+        public virtual async Task<T> Add(T entity)
+        {
+            _dbContext.Add(entity);
+            await _dbContext.SaveChangesAsync();
 
+            return entity;
+        }
+
+        public virtual async Task<T> Update(T entity)
+        {
+            _dbContext.Update(entity);
+            await _dbContext.SaveChangesAsync();
+
+            return entity;
+        }
+
+        public virtual async Task<T> Delete(T entity)
+        {
+            _dbContext.Remove(entity);
+            await _dbContext.SaveChangesAsync();
+
+            return entity;
+        }
     }
 }

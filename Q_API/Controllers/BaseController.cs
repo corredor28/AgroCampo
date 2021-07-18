@@ -33,5 +33,50 @@ namespace Q_API.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpPost]
+        public virtual async Task<IActionResult> Post(T entity)
+        {
+            try
+            {
+                var bl = new BaseBL<T>(_dbContext);
+                var result = await bl.Add(entity);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public virtual async Task<IActionResult> Put(T entity)
+        {
+            try
+            {
+                var bl = new BaseBL<T>(_dbContext);
+                var result = await bl.Update(entity);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete]
+        public virtual async Task<IActionResult> Delete(T entity)
+        {
+            try
+            {
+                var bl = new BaseBL<T>(_dbContext);
+                var result = await bl.Delete(entity);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

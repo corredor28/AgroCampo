@@ -16,7 +16,7 @@ namespace Q_API.Controllers
 
         }
 
-        [HttpGet("persona/{documento}")]
+        [HttpGet("{documento}")]
         public async Task<IActionResult> GetBy(string documento)
         {
             try
