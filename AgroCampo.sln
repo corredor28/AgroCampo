@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q_API", "Q_API\Q_API.csproj", "{F8AD8382-9D1D-4ADE-8E0B-8EBDED0E6960}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F_Data", "F_Data\F_Data.csproj", "{FC8D9454-5ED2-4E13-8914-7EE9966681D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L_Business", "L_Business\L_Business.csproj", "{7513A293-CC36-4FF6-83E4-B7472E1B3800}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F8AD8382-9D1D-4ADE-8E0B-8EBDED0E6960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8AD8382-9D1D-4ADE-8E0B-8EBDED0E6960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8AD8382-9D1D-4ADE-8E0B-8EBDED0E6960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8D9454-5ED2-4E13-8914-7EE9966681D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8D9454-5ED2-4E13-8914-7EE9966681D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8D9454-5ED2-4E13-8914-7EE9966681D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8D9454-5ED2-4E13-8914-7EE9966681D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7513A293-CC36-4FF6-83E4-B7472E1B3800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7513A293-CC36-4FF6-83E4-B7472E1B3800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7513A293-CC36-4FF6-83E4-B7472E1B3800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7513A293-CC36-4FF6-83E4-B7472E1B3800}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
