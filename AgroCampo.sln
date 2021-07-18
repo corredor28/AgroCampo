@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q_API", "Q_API\Q_API.csproj", "{F8AD8382-9D1D-4ADE-8E0B-8EBDED0E6960}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8AD8382-9D1D-4ADE-8E0B-8EBDED0E6960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AD8382-9D1D-4ADE-8E0B-8EBDED0E6960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AD8382-9D1D-4ADE-8E0B-8EBDED0E6960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AD8382-9D1D-4ADE-8E0B-8EBDED0E6960}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23954249-DA43-49B7-A839-3C90D075C201}
+	EndGlobalSection
+EndGlobal
